@@ -6,7 +6,7 @@
 }
 .main{
     width: 100%;
-    height: 110vh;
+    height: 115vh;
     background-color: #d1dbec;
     display: flex;
 }
@@ -58,6 +58,35 @@
 }
 .sub .same a:hover{
     color: #ffff;
+}
+.compo{
+    margin-top: 75px;
+    margin-left: 50px;
+    text-align: left;
+}
+.compo .cc{
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}
+.compo .cc .c{
+    border: solid 2px #06152B;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+.compo .cc h3{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.compo h4{
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 300;
+    color: #809FB8;
 }
 .sup{
     margin: 15px;
@@ -271,6 +300,7 @@ margin-left: 30px;
     width: 70%;
     height: 40vh;
     border: solid 2px #809FB8;
+    background-image: url(../img/horizon.png);
     border-radius: 10px;
 }
 .div-one .div-two .summary{
@@ -450,7 +480,7 @@ margin-left: 30px;
 .div-one .div-three .trans{
     display: flex;
     gap: 20px;
-    margin-top: 10px;
+    margin-top: px;
     margin-left: 30px;
 }
 .div-one .div-three .trans .blue{
